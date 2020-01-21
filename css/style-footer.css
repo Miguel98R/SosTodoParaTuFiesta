@@ -1,0 +1,24 @@
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa-phone-volume,
+.fa-user-clock {
+  font-size: 30px;
+  color: black;
+}
+
+.fa-facebook,
+.fa-instagram {
+  font-size: 40px;
+  color: black;
+}
+
+
+.border-top{
+  size: 20px;
+}
+
