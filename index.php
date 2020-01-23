@@ -11,11 +11,8 @@
     <link rel="stylesheet" href="css/services.css" type="text/css" />
      <link rel="stylesheet" href="css/style-contact.css" type="text/css" />
      <link rel="stylesheet" href="css/slider.css" type="text/css" />
-     <link rel="stylesheet" href="owl/owl.carousel.min.css" />
-    <link rel="stylesheet" href="owl/owl.theme.default.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
- 
 
+  
     <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
 
 
@@ -58,10 +55,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-    <script src="owl/owl.carousel.min.js"></script>
-    <script src="js/owl-carousel.js"></script>
-
-    <script src="js/slider.js"></script>
+  
     <script src="js/validateContact.js"></script>
     
 </body>
