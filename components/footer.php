@@ -7,8 +7,8 @@
 
             <div class="col-md-4  my-4 ">
                 <h4>Síguenos en:&nbsp</h4>
-                <a href=""><i class="fab fa-facebook"></i></a> &nbsp
-                <a href="https://www.instagram.com/sos.todo.para.tu.fiesta/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/Sos-Todo-para-t%C3%BA-fiesta-1239111629602799/" target="_blank"><i class="fab fa-facebook"></i></a> &nbsp
+                <a href="https://www.instagram.com/sos.todo.para.tu.fiesta/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
 
             <div class="col-md-4  my-4"><i class="fas fa-user-clock"></i>

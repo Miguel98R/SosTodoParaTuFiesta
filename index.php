@@ -23,8 +23,14 @@
 <title>So's Todo Para Tus Fiestas</title>
 
 <body>
- <a id ="whatsapp" href="https://api.whatsapp.com/send?phone=527714349366">
-    <img src="img/whatsapp.png" alt=""target="_blank"></a>
+ <a id ="whatsapp" href="https://api.whatsapp.com/send?phone=527714349366" style=" position: fixed;
+  top: 80%;
+  right: 1%;
+   z-index: 100;">
+    <img src="img/whatsapp.png" style=" position: fixed;
+  top: 80%;
+  right: 1%;
+   z-index: 100;" target="_blank"></a>
    
     <?php include("components/navbar.php"); ?>
    

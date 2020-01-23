@@ -1,10 +1,13 @@
-<div class="jumbotron jumbotron-fluid bg-white" >
-  <div class="container">
-    <h1 class="display-3 text-center ">Nuestros Servicios</h1>
-  
+<div class="col-sm-12 col-md-12  w-100 text-center ">
+                    <div class="jumbotron jumbotron-fluid bg-white my-0">
+  <div class="container ">
+    <h1 class="display-3 text-center   ">Nuestros Servicios </h1>
+    <h4 class="text-info">Conoce nuestros servicios </h4>
     
   </div>
 </div>
+    
+  </div>
 <div class="container-fluid" style="background-image: url('./img/bg-card-body.jpg');" >
     
 

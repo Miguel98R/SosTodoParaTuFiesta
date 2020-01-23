@@ -4,7 +4,7 @@
                     <div class="jumbotron jumbotron-fluid bg-white my-0">
   <div class="container ">
     <h1 class="display-3 text-center   ">Contacto </h1>
-    <h4 class="text-info">Envianos un mensaje con tus dudas o comentarios sobre alguno de nuestros servicios</h4>
+    <h4 class="text-info">Envianos un correo con tus dudas o comentarios sobre alguno de nuestros servicios , o dale click al boton de whatsapp para enviarnos un mensaje y en breve nos comunicaremos contigo </h4>
     
   </div>
 </div>

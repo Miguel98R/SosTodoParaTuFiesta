@@ -12,19 +12,19 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./img/services/centro-mesa/centro-mesa.jpg" alt="Los Angeles" width="450" height="500">
+      <img src="./img/services/centro-mesa/centro-mesa.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-     <img src="./img/services/centro-mesa/centro-mesa2.jpg" alt="Los Angeles" width="450" height="500">
+     <img src="./img/services/centro-mesa/centro-mesa2.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-  <img src="./img/services/centro-mesa/centro-mesa3.jpg" alt="Los Angeles" width="450" height="500">
+  <img src="./img/services/centro-mesa/centro-mesa3.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-  <img src="./img/services/centro-mesa/centro-mesa4.jpg" alt="Los Angeles" width="450" height="500">
+  <img src="./img/services/centro-mesa/centro-mesa4.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-  <img src="./img/services/centro-mesa/centro-mesa5.jpg" alt="Los Angeles" width="450" height="500">
+  <img src="./img/services/centro-mesa/centro-mesa5.jpg" alt="Los Angeles" width="360" height="500">
     </div>
   </div>
   

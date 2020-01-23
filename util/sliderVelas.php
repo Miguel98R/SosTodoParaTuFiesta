@@ -12,19 +12,19 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./img/services/velas/velas.jpg" alt="Los Angeles" width="450" height="500">
+      <img src="./img/services/velas/velas.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-      <img src="./img/services/velas/vela2.jpg" alt="Los Angeles" width="450" height="500">
+      <img src="./img/services/velas/vela2.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-   <img src="./img/services/velas/vela3.jpg" alt="Los Angeles" width="450" height="500">
+   <img src="./img/services/velas/vela3.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-   <img src="./img/services/velas/vela4.jpg" alt="Los Angeles" width="450" height="500">
+   <img src="./img/services/velas/vela4.jpg" alt="Los Angeles" width="360" height="500">
     </div>
     <div class="carousel-item">
-   <img src="./img/services/velas/vela5.jpg" alt="Los Angeles" width="450" height="500">
+   <img src="./img/services/velas/vela5.jpg" alt="Los Angeles" width="360" height="500">
     </div>
   </div>
   
