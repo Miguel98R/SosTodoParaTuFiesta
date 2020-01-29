@@ -1,0 +1,90 @@
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+#whatsapp {
+  position: fixed;
+  top: 80%;
+  right: 1%;
+   z-index: 100;
+}
+
+
+.navtext{
+   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+}
+/* -------------------------  SOBRE NOSOTROS ----------------------------------------------------- */
+
+  .how-section1{
+  
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+ 
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border-color: transparent ;
+
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* -------------------------  FOOTER ----------------------------------------------------- */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa-phone-volume,
+.fa-user-clock {
+  font-size: 30px;
+  color: black;
+}
+
+.fa-facebook,
+.fa-instagram {
+  font-size: 40px;
+  color: black;
+}
+
+
+.border-top{
+  size: 20px;
+}

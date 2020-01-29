@@ -1,114 +1,126 @@
 <div class="col-sm-12 col-md-12  w-100 text-center ">
-                    <div class="jumbotron jumbotron-fluid bg-white my-0">
+                    <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
-    <h1 class="display-3 text-center   ">Nuestros Servicios </h1>
+    <h1 class="display-3 text-center">Nuestros Servicios </h1>
     <h4 class="text-info">Conoce nuestros servicios </h4>
     
   </div>
 </div>
     
   </div>
-<div class="container-fluid" style="background-image: url('./img/bg-card-body.jpg');" >
+<div class="container" style="background-color: transparent; border: none; " >
     
 
 <div class="row text-center d-flex justify-content-center">
-  
-    <div class="col-md-6 py-3">
-          <div class="card" style="background-color: transparent; border: none;">
-  
- 
-   <?php include("./util/sliderPorcelanicron.php"); ?>
 
-  <div class="card-body " >
-    <h1 class="card-title">Porcelanicron</h1>
-    
-    <a href="#" class="btn btn btn-warning">Más información</a>
+    <div class="col-md-6 py-3">
+
+      <div class="card" style="background-color: #0098f9;background-image: linear-gradient(19deg, #0098f9 0%, #960ae4 100%);
+">
+  <div class="card-body">
+    <h5 class="card-title display-4 text-center text-white">Inflables y brincolines</h5>
+      <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
+  <?php include("./util/sliderBrincolin.php"); ?>
 </div>
-    </div>
-     <div class="col-md-6 py-3">
-          <div class="card" style="background-color: transparent; border: none;">
+<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
   
- 
+</div>
+
+ <div class="col-md-6 py-3">
+
+      <div class="card" style="background-color: #0098f9;background-image: linear-gradient(19deg, #0098f9 0%, #960ae4 100%);
+">
+  <div class="card-body">
+    <h1 class="card-title display-4 text-center text-white ">Velas Personalizadas</h1>
+      <a href="#" class="btn btn btn-warning">Más información</a>
+  </div>
    <?php include("./util/sliderVelas.php"); ?>
-
-  <div class="card-body " >
-    <h1 class="card-title">Velas Personalizadas</h1>
-    
-    <a href="#" class="btn btn btn-warning">Más información</a>
-  </div>
 </div>
-    </div>
-    
-    
+<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+  
+</div>
+
     
 
 
 </div>
 <div class="row text-center d-flex justify-content-center">
-  
-    <div class="col-md-6 py-3">
-          <div class="card" style="background-color: transparent; border: none;">
-  
- 
+
+   <div class="col-md-6 py-3">
+
+      <div class="card" style="background-color: #6697bb;
+background-image: linear-gradient(19deg, #6697bb 0%, #754489 100%);
+
+">
+  <div class="card-body">
+    <h5 class="card-title display-4 text-center text-white">Mesas de dulce</h5>
+      <a href="#" class="btn btn btn-warning">Más información</a>
+  </div>
    <?php include("./util/sliderMesas.php"); ?>
-
-  <div class="card-body " >
-    <h1 class="card-title">Mesas de dulce y decoración</h1>
-    
-    <a href="#" class="btn btn btn-warning">Más información</a>
-  </div>
 </div>
-    </div>
-     <div class="col-md-6 py-3">
-          <div class="card" style="background-color: transparent; border: none;">
+<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
   
- 
-   <?php include("./util/sliderCentrosMesas.php"); ?>
-
-  <div class="card-body " >
-    <h1 class="card-title " >Centros De Mesa</h1>
-    
-    <a href="#" class="btn btn btn-warning">Más información</a>
-  </div>
 </div>
-    </div>
-    
-    
+
+ <div class="col-md-6 py-3">
+
+      <div class="card" style="background-color: #6697bb;
+background-image: linear-gradient(19deg, #6697bb 0%, #754489 100%);
+
+">
+  <div class="card-body">
+    <h5 class="card-title display-4 text-center text-white">Centros De Mesa</h5>
+      <a href="#" class="btn btn btn-warning">Más información</a>
+  </div>
+  <?php include("./util/sliderCentrosMesas.php"); ?>
+</div>
+<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+  
+</div>
+  
     
 
 
 </div>
 <div class="row text-center d-flex justify-content-center">
+
+   <div class="col-md-6 py-3">
+
+      <div class="card" style="background-color: #2c95e0;
+background-image: linear-gradient(19deg, #2c95e0 0%, #9f14c9 100%);
+
+
+
+">
+  <div class="card-body">
+    <h5 class="card-title display-4 text-center text-white">Flores Rehidratadas</h5>
+      <a href="#" class="btn btn btn-warning">Más información</a>
+  </div>
+  <?php include("./util/sliderFlores.php"); ?>
+</div>
+<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
   
-    <div class="col-md-6 py-3">
-          <div class="card" style="background-color: transparent; border: none;">
+</div>
+
+ <div class="col-md-6 py-3">
+
+      <div class="card" style="background-color: #2c95e0;
+background-image: linear-gradient(19deg, #2c95e0 0%, #9f14c9 100%);
+
+
+">
+  <div class="card-body">
+    <h5 class="card-title display-4 text-center text-white">Porcelanicron</h5>
+      <a href="#" class="btn btn btn-warning">Más información</a>
+  </div>
+  <?php include("./util/sliderPorcelanicron.php"); ?>
+</div>
+<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+  
+</div>
   
  
-   <?php include("./util/sliderFlores.php"); ?>
-
-  <div class="card-body " >
-    <h1 class="card-title">Flores Rehidratadas</h1>
-    
-    <a href="#" class="btn btn btn-warning">Más información</a>
-  </div>
-</div>
-    </div>
-     <div class="col-md-6 py-3">
-          <div class="card" style="background-color: transparent; border: none;">
-  
- 
-   <?php include("./util/sliderBrincolin.php"); ?>
-
-  <div class="card-body " >
-    <h1 class="card-title">Inflables y brincolines</h1>
-    
-    <a href="#" class="btn btn btn-warning">Más información</a>
-  </div>
-</div>
-    </div>
-    
-    
     
 
 
