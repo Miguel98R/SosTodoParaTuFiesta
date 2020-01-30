@@ -18,7 +18,7 @@
       <div class="card" style="background-color: #0098f9;background-image: linear-gradient(19deg, #0098f9 0%, #960ae4 100%);
 ">
   <div class="card-body">
-    <h5 class="card-title display-4 text-center text-white">Inflables y brincolines</h5>
+    <h1 class="card-title text-center text-white">Inflables y brincolines</h1>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
   <?php include("./util/sliderBrincolin.php"); ?>
@@ -32,7 +32,7 @@
       <div class="card" style="background-color: #0098f9;background-image: linear-gradient(19deg, #0098f9 0%, #960ae4 100%);
 ">
   <div class="card-body">
-    <h1 class="card-title display-4 text-center text-white ">Velas Personalizadas</h1>
+    <h1 class="card-title text-center text-white">Velas Personalizadas</h1>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
    <?php include("./util/sliderVelas.php"); ?>
@@ -54,7 +54,7 @@ background-image: linear-gradient(19deg, #6697bb 0%, #754489 100%);
 
 ">
   <div class="card-body">
-    <h5 class="card-title display-4 text-center text-white">Mesas de dulce</h5>
+   <h1 class="card-title text-center text-white">Mesas de dulce</h1>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
    <?php include("./util/sliderMesas.php"); ?>
@@ -70,7 +70,7 @@ background-image: linear-gradient(19deg, #6697bb 0%, #754489 100%);
 
 ">
   <div class="card-body">
-    <h5 class="card-title display-4 text-center text-white">Centros De Mesa</h5>
+   <h1 class="card-title text-center text-white">Centros De Mesa</h1>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
   <?php include("./util/sliderCentrosMesas.php"); ?>
@@ -94,7 +94,7 @@ background-image: linear-gradient(19deg, #2c95e0 0%, #9f14c9 100%);
 
 ">
   <div class="card-body">
-    <h5 class="card-title display-4 text-center text-white">Flores Rehidratadas</h5>
+   <h1 class="card-title text-center text-white">Flores Rehidratadas</h1>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
   <?php include("./util/sliderFlores.php"); ?>
@@ -111,7 +111,7 @@ background-image: linear-gradient(19deg, #2c95e0 0%, #9f14c9 100%);
 
 ">
   <div class="card-body">
-    <h5 class="card-title display-4 text-center text-white">Porcelanicron</h5>
+   <h1 class="card-title text-center text-white">Porcelanicron</h1>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
   <?php include("./util/sliderPorcelanicron.php"); ?>

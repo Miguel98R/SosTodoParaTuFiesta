@@ -1,14 +1,14 @@
 <div class="col-sm-12 col-md-12  w-100 text-center ">
                     <div class="jumbotron jumbotron-fluid bg-white my-0">
   <div class="container ">
-    <h1 class="display-3 text-center   ">Sobre Nosotros </h1>
-       <h4 class="text-info">Conoce mas sobre nosotros </h4>
+    <h1 class="display-3 text-center ">Sobre Nosotros </h1>
+       <h4 class="text-info my-3">Conoce mas sobre nosotros </h4>
     
   </div>
 </div>
     
   </div>
-    <div class="how-section1">
+    <div class="container">
                     <div class="row ">
                        
                         <div class="col-md-6 ">
@@ -19,6 +19,7 @@
                             <img src="./img/logo2.jpg" class="rounded-circle img-fluid" alt=""/>
                         </div>
                     </div>
+                    <br>
                     <div class="row">
                         <div class="col-md-6 how-img zoom">
                             <img src="./img/logo.jpg" class="rounded-circle img-fluid" alt=""/>

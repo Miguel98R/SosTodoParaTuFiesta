@@ -8,36 +8,33 @@
     
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-   
-  
-    
-
+ 
     <link rel="stylesheet" href="css/slider.css" type="text/css" />
-
-  
+ 
     <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
-
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+        <title>So's Todo Para Tus Fiestas</title>
 </head>
-<title>So's Todo Para Tus Fiestas</title>
+
 
 <body>
  <a  id ="whatsapp" href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" style=" position: fixed;
   top: 80%;
   right: 1%;
-   z-index: 100;">
+   z-index: 100;" target="_blank">
     <img src="img/whatsapp.png" style=" position: fixed;
   top: 80%;
   right: 1%;
-   z-index: 100;" target="_blank"></a>
+   z-index: 100;" ></a>
    
     <?php include ("components/navbar.php"); ?>
 
     
- <?php include ("components/sobreNosotros.php"); ?>
+    <?php include ("components/sobreNosotros.php"); ?>
 
     <?php include ("components/services.php"); ?>
 
