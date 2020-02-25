@@ -1,7 +1,7 @@
-<div class="col-sm-12 col-md-12  w-100 text-center ">
+<div class="col-sm-12 col-md-12  w-100 text-center " id="services">
                     <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
-    <h1 class="display-3 text-center">Nuestros Servicios </h1>
+    <h2 class="display-3 text-center">Nuestros Servicios </h2>
     <h4 class="text-info">Conoce nuestros servicios </h4>
     
   </div>
@@ -15,29 +15,28 @@
 
     <div class="col-md-6 py-3">
 
-      <div class="card" style="background-color: #0098f9;background-image: linear-gradient(19deg, #0098f9 0%, #960ae4 100%);
-">
+         <div class="card" style="background-color: #00d4ff;"> 
   <div class="card-body">
-    <h1 class="card-title text-center text-white">Inflables y brincolines</h1>
-      <a href="#" class="btn btn btn-warning">Más información</a>
+    <h2 class="card-title text-center text-white">Inflables y brincolines</h2>
+      <a href="./galerias/brincolinGalery.php" class="btn btn btn-warning">Más información</a>
   </div>
-  <?php include("./util/sliderBrincolin.php"); ?>
+  <img src="./img/servicios/brincolin.jpeg" alt="" width="100%" height="500">
 </div>
-<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+
   
 </div>
 
  <div class="col-md-6 py-3">
 
-      <div class="card" style="background-color: #0098f9;background-image: linear-gradient(19deg, #0098f9 0%, #960ae4 100%);
+      <div class="card" style="background-color: #ffde00;
 ">
   <div class="card-body">
-    <h1 class="card-title text-center text-white">Velas Personalizadas</h1>
+    <h2 class="card-title text-center text-white">Velas Personalizadas</h2>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
-   <?php include("./util/sliderVelas.php"); ?>
+    <img src="./img/servicios/velas.jpeg" alt="" width="100%" height="500">
 </div>
-<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+
   
 </div>
 
@@ -49,33 +48,29 @@
 
    <div class="col-md-6 py-3">
 
-      <div class="card" style="background-color: #6697bb;
-background-image: linear-gradient(19deg, #6697bb 0%, #754489 100%);
+      <div class="card" style="background-color: #f996e9;
 
 ">
   <div class="card-body">
-   <h1 class="card-title text-center text-white">Mesas de dulce</h1>
+   <h2 class="card-title text-center text-white">Mesas de dulce</h2>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
-   <?php include("./util/sliderMesas.php"); ?>
+   <img src="./img/servicios/mesas.jpeg" alt="" width="100%" height="500">
 </div>
-<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+
   
 </div>
 
  <div class="col-md-6 py-3">
 
-      <div class="card" style="background-color: #6697bb;
-background-image: linear-gradient(19deg, #6697bb 0%, #754489 100%);
-
-">
+      <div class="card" style="background-color: #00d4ff;">
   <div class="card-body">
-   <h1 class="card-title text-center text-white">Centros De Mesa</h1>
+   <h2 class="card-title text-center text-white">Centros De Mesa</h2>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
-  <?php include("./util/sliderCentrosMesas.php"); ?>
+ <img src="./img/servicios/centros-mesa.jpeg" alt="" width="100%" height="500">
 </div>
-<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+
   
 </div>
   
@@ -87,36 +82,30 @@ background-image: linear-gradient(19deg, #6697bb 0%, #754489 100%);
 
    <div class="col-md-6 py-3">
 
-      <div class="card" style="background-color: #2c95e0;
-background-image: linear-gradient(19deg, #2c95e0 0%, #9f14c9 100%);
-
-
-
+       <div class="card" style="background-color: #ffde00;
 ">
   <div class="card-body">
-   <h1 class="card-title text-center text-white">Flores Rehidratadas</h1>
+   <h2 class="card-title text-center text-white">Flores Rehidratadas</h2>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
-  <?php include("./util/sliderFlores.php"); ?>
+   <img src="./img/servicios/flores.jpeg" alt="" width="100%" height="500">
 </div>
-<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+
   
 </div>
 
  <div class="col-md-6 py-3">
 
-      <div class="card" style="background-color: #2c95e0;
-background-image: linear-gradient(19deg, #2c95e0 0%, #9f14c9 100%);
-
+        <div class="card" style="background-color: #f996e9;
 
 ">
   <div class="card-body">
-   <h1 class="card-title text-center text-white">Porcelanicron</h1>
+   <h2 class="card-title text-center text-white">Porcelanicron</h2>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
-  <?php include("./util/sliderPorcelanicron.php"); ?>
+   <img src="./img/servicios/porce.jpeg" alt="" width="100%" height="500">
 </div>
-<!-- style="background-image: url('./img/bg-card-body.jpg'); -->
+
   
 </div>
   

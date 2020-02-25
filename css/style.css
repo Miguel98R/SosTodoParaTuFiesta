@@ -12,9 +12,11 @@
 }
 
 
+
 .navtext{
    color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #00d4ff;
+
 }
 /* -------------------------  SOBRE NOSOTROS ----------------------------------------------------- */
 
@@ -53,41 +55,3 @@
 }
 
 /* -------------------------  FOOTER ----------------------------------------------------- */
-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.fa-phone-volume,
-.fa-user-clock {
-  font-size: 30px;
-  color: black;
-}
-
-.fa-facebook,
-.fa-instagram {
-  font-size: 40px;
-  color: black;
-}
-
-
-.border-top{
-  size: 20px;
-}
-
-@media only screen
-  and (min-width: 320px) 
-  and (max-width: 736px)
-{
-  .zoom{
-      transition: none; /* Animation */
-  }
-
-  .zoom:hover {
-  transform: none; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  border-color: red ;
-
-}
-}
