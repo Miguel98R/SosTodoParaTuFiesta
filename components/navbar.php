@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow" style="background-image: url('./img/bg-nav.jpg');" >
+<nav class="navbar navbar-expand-lg navbar-light bg-white " style="background-image: url('./img/bg-nav.jpg');" >
      
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./img/logo.jpg" class="logo rounded-circle img-fluid" alt=""/></a>

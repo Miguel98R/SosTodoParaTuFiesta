@@ -1,18 +1,33 @@
-<div class="col-sm-12 col-md-12  w-100 text-center " id="sobreNosotros">
+<div class="py-3" style="background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+" >
+  <div class="row">
+    <div class="col-md-4 text-center"><img src="./img/logo.jpg" class="rounded-circle img-fluid py-3" alt=""  style="width:auto; height:auto" /></div>
+    <div class="col-md-8 text-center"> <h1 style="  display: flex;
+  justify-content: center;
+  margin: 18vh 0;
+  width: 100%;
+  font-size:60px;
+  color:white;
+}">Bienvenidos a So´s todo para tu fiesta</h1><a class="button2"  href="#services" style="text-decoration: none; " > Conce nuestros servicios</a> </div>
+    
+
+  </div>
+  
+</div>
+<div class="col-sm-12 col-md-12  w-100 text-center " >
+  
                     <div class="jumbotron jumbotron-fluid bg-white my-0">
   <div class="container ">
-    <h2 class="display-3 text-center ">Sobre Nosotros </h2>
+    <h2 class="display-3 text-center " id="sobreNosotros">Sobre Nosotros </h2>
        <h4 class="text-info my-3">Conoce mas sobre nosotros </h4>
     
   </div>
 </div>
     
   </div>
-    <div class="container">
-      <div class="col-md-12 how-img zoom">
-                            <img src="./img/logo.jpg" class="rounded-circle img-fluid" alt="" style="width:30%; height:30%;" />
-                        </div>
-                     <br>   
+    <div class="container" style="">
+    
                     <div class="row py-5">
                        
                         <div class="col-md-6 text-center py-4">
@@ -28,11 +43,11 @@
                
                      <div class="row">
                       
-                        <div class=" text-center ">
+                        <div class=" text-center " style="">
                              <h2 class="text-info  py-3">Valores empresariales</h2>
                           <div class="row ">
                             
-                             <div class="card border-primary border-bottom-0 border-top-0 border-right-0 border-left-0 col-md-4 ">
+                             <div class="card border-primary border-bottom-0 border-top-0 border-right-0 border-left-0 col-md-4  ">
                                
                                  <div class="card-body" style="font-size: 30px;color: #00d4ff;"><img src="./img/acuerdo.png"/>&nbsp;Nobleza</div>
                                  <p class="font-italic">Trabajamos de forma honesta.</p> 
