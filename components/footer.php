@@ -1,5 +1,5 @@
 
-<footer class="navbar-light bg-light border-top  " style="background-image: url('./img/bg-nav.jpg');" >
+<footer class="navbar-light bg-light border-top " style="background-image: url('./img/bg-nav.jpg');" >
     <div class="container-fluid">
 
         <div class="row">
@@ -29,13 +29,24 @@
 
             </div>
             <div class="col-md-3 col-sm-4 col-12 text-left">
-                <div><p class="navtext" style="font-size: 30px;">Terminos y condiciones</p></div>
-                <div><ul>
-                     <li style="list-style:none;"><a class="navtext" href="index.php" >Ver terminos y condiciones</a></li>
-                   
-                
-                    </ul>
-                </div>
+                <div><p class="navtext" style="font-size: 30px;">Términos y condiciones</p></div>
+                <!-- Large modal -->
+<button type="button" class="btn button2 text-white " data-toggle="modal" data-target=".bd-example-modal-lg">Ver términos y condiciones</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <iframe src="./docs/RentaSO.pdf" frameborder="0" width="100%" height="600PX" ></iframe>
+    </div>
+     <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar ventana</button>
+      
+      </div>
+  </div>
+</div>
+
+
+
 
             </div>
 

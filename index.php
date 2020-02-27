@@ -21,7 +21,16 @@
 
 
 <body>
- <a  id ="whatsapp" href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" style=" position: fixed;
+ <!-- <a  id ="whatsapp" href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" style=" position: fixed;
+  top: 80%;
+  right: 1%;
+   z-index: 100;" target="_blank">
+    <img src="img/whatsapp.png" style=" position: fixed;
+  top: 80%;
+  right: 1%;
+   z-index: 100;" ></a> -->
+
+   <a  id ="whatsapp" href="https://api.whatsapp.com/send?phone=527714349366&text=Hola%2C%20nombre" style=" position: fixed;
   top: 80%;
   right: 1%;
    z-index: 100;" target="_blank">
@@ -55,7 +64,8 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>    
+    </script>  
+      <script src="js/bienvenida.js"></script>  
 </body>
 
 </html>

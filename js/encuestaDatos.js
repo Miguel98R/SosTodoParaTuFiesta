@@ -1,0 +1,4 @@
+let nombre;
+
+nombre = "miguel";
+
