@@ -1,5 +1,4 @@
 
-
 <footer class="navbar-light bg-light border-top  " style="background-image: url('./img/bg-nav.jpg');" >
     <div class="container-fluid">
 

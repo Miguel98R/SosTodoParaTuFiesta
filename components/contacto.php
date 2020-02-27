@@ -1,4 +1,5 @@
- <div class="col-sm-12 col-md-12  w-100 text-center " >
+ <div class="container-fluid">
+   <div class="col-sm-12 col-md-12  w-100 text-center " >
                     <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
     <h2 class="display-3 text-center" id="contacto">Contacto </h2>
@@ -23,3 +24,5 @@
       
 
                 </div>
+ </div>
+ 

@@ -1,4 +1,5 @@
-<div class="col-sm-12 col-md-12  w-100 text-center " id="services">
+<div class="container-fluid">
+  <div class="col-sm-12 col-md-12  w-100 text-center " id="services">
                     <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
     <h2 class="display-3 text-center">Nuestros Servicios </h2>
@@ -52,7 +53,7 @@
 
 ">
   <div class="card-body">
-   <h2 class="card-title text-center text-white">Mesas de dulce</h2>
+   <h2 class="card-title text-center text-white">Mesas de dulces</h2>
       <a href="#" class="btn btn btn-warning">Más información</a>
   </div>
    <img src="./img/servicios/mesas.jpeg" alt="" width="100%" height="500">
@@ -118,8 +119,6 @@
 
 
 </div>
-
-
 
 
 
