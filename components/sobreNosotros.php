@@ -3,8 +3,8 @@
   
                     <div class="jumbotron jumbotron-fluid bg-white my-0">
   <div class="container ">
-    <h2 class="display-3 text-center  " id="sobreNosotros">Sobre Nosotros </h2>
-       <h4 class="text-info my-3">Conócenos </h4>
+    <h2 class="display-3 text-center" id="sobreNosotros">Sobre Nosotros </h2>
+       <h4 class=" my-3" style="color: orange;">Conócenos </h4>
     
   </div>
 </div>
@@ -15,11 +15,11 @@
                     <div class="row py-5">
                        
                         <div class="col-md-6 text-center py-4">
-                             <h2 class="text-info">Visión</h2>
+                             <h2 style="color: orange;" >Visión</h2>
                                     <h5 class="text-muted font-italic">"Ampliar el valor de la compañía generando liderazgo en la prestación de servicios de eventos sociales en cada uno de los mercados."</h3>
                         </div>
                          <div class="col-md-6 text-center py-4">
-                             <h2 class="text-info ">Misión</h2>
+                             <h2 style="color: orange;">Misión</h2>
                                           <h5 class="text-muted font-italic">"Generar los servicios de realización de eventos sociales solicitados con calidad proporcionando siempre una experiencia extraordinaria."</h2>
                         </div>
                      
@@ -27,8 +27,8 @@
                
                      <div class="row">
                       
-                        <div class=" text-center " style="">
-                             <h2 class="text-info  py-3">Valores empresariales</h2>
+                        <div class=" text-center ">
+                             <h2 class="py-3" style="color: orange;" >Valores empresariales</h2>
                           <div class="row ">
                             
                              <div class="card border-primary border-bottom-0 border-top-0 border-right-0 border-left-0 col-md-4  ">

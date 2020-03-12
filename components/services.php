@@ -3,7 +3,7 @@
                     <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
     <h2 class="display-3 text-center ">Nuestros Servicios </h2>
-    <h4 class="text-info">Conoce nuestras ofertas al publico </h4>
+    <h4 style="color: orange;">Conoce nuestras ofertas al publico </h4>
     
   </div>
 </div>

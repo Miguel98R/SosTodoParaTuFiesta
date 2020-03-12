@@ -3,7 +3,8 @@
                     <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
     <h2 class="display-3 text-center" id="contacto">Contacto </h2>
-   <h4 class="text-info">Envianos un mensaje con tus dudas o comentarios </h4>
+    
+   <h4 style="color: orange;">Envianos un mensaje con tus dudas o comentarios </h4>
     
   </div>
 </div>
