@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,6 +10,7 @@
    
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+	   <link rel="stylesheet" href="css/galeria.css" type="text/css" />
     <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -18,40 +18,57 @@
     
     
 </head>
-
-
 <body>
- <a  id ="whatsapp" href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" style=" position: fixed;
-  top: 80%;
-  right: 1%;
-   z-index: 100;" target="_blank">
-    <img src="img/whatsapp.png" style=" position: fixed;
-  top: 80%;
-  right: 1%;
-   z-index: 100;" ></a>
-
-   
-
-   <!-- <a href="https://m.me/Sos-Todo-para-tú-fiesta-1239111629602799">Envíanos un mensaje de Facebook</a> -->
-   
-    <?php include ("components/navbar.php"); ?>
-
-     <?php include ("components/header.php"); ?>
-
-    <?php include ("components/sobreNosotros.php"); ?>
-
-    <?php include ("components/services.php"); ?>
-
-   
-     <?php include ("components/contacto.php"); ?>
+<?php include ("components/navGalerias.php"); ?>
 
 
-    <?php include ("components/footer.php"); ?>
+<ul class="gallery_box">
+	<li>
+		<a href="#0"><img src="https://picsum.photos/600/700/?random">
+		<div class="box_data">
+			<span>Ravi With Bike</span>
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="https://picsum.photos/600/701/?random">
+		<div class="box_data">
+			<span>Ravi Singh</span>
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="https://picsum.photos/600/702/?random">
+		<div class="box_data">
+			<span>White wall</span>
+		</div></a>
+	</li>
+			<li>
+		<a href="#0"><img src="https://picsum.photos/600/703/?random">
+		<div class="box_data">
+			<span>Green Tree</span>
+		</div></a>
+	</li>
+			<li style="    position: relative;
+    top: -134px;">
+		<a href="#0"><img src="https://picsum.photos/600/704/?random">
+		<div class="box_data">
+			<span>Blue</span>
+		</div></a>
+	</li>
+			<li>
+		<a href="#0"><img src="https://picsum.photos/600/705/?random">
+		<div class="box_data">
+			<span>Ravi</span>
+		</div></a>
+	</li>
+	
+</ul>
+
+  <?php include ("components/contacto.php"); ?>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <?php include ("components/footerGalerias.php"); ?>
+
+	 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -60,7 +77,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>  
-      <script src="js/bienvenida.js"></script>  
+    
 </body>
-
 </html>
+ 
+ 
+ 
+ 

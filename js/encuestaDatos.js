@@ -1,4 +1,2 @@
-let nombre;
 
-nombre = "miguel";
 

@@ -2,8 +2,8 @@
   <div class="col-sm-12 col-md-12  w-100 text-center " id="services">
                     <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
-    <h2 class="display-3 text-center">Nuestros Servicios </h2>
-    <h4 class="text-info">Conoce nuestros servicios </h4>
+    <h2 class="display-3 text-center ">Nuestros Servicios </h2>
+    <h4 class="text-info">Conoce nuestras ofertas al publico </h4>
     
   </div>
 </div>
@@ -19,7 +19,7 @@
          <div class="card" style="background-color: #00d4ff;"> 
   <div class="card-body">
     <h2 class="card-title text-center text-white">Inflables y brincolines</h2>
-      <a href="./galerias/brincolinGalery.php" class="btn btn btn-warning">Más información</a>
+      <a href="./brincolin.php" class="btn btn btn-warning">Más información</a>
   </div>
   <img src="./img/servicios/brincolin.jpeg" alt="" width="100%" height="500">
 </div>

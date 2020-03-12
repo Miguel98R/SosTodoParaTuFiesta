@@ -3,7 +3,7 @@
   
                     <div class="jumbotron jumbotron-fluid bg-white my-0">
   <div class="container ">
-    <h2 class="display-3 text-center " id="sobreNosotros">Sobre Nosotros </h2>
+    <h2 class="display-3 text-center  " id="sobreNosotros">Sobre Nosotros </h2>
        <h4 class="text-info my-3">Conócenos </h4>
     
   </div>
