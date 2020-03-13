@@ -31,8 +31,7 @@
 
    
 
-   <!-- <a href="https://m.me/Sos-Todo-para-tú-fiesta-1239111629602799">Envíanos un mensaje de Facebook</a> -->
-   
+ 
     <?php include ("components/navbar.php"); ?>
 
      <?php include ("components/header.php"); ?>
@@ -56,7 +55,7 @@
     </script>
     <script src="js/bootstrap.min.js">
     </script>  
-      <script src="js/bienvenida.js"></script>  
+     
 </body>
 
 </html>
