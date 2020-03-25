@@ -8,7 +8,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
             <div class="col-md-3 col-sm-4 col-12 text-left">
                 <div><p class="navtext" style="font-size: 30px;">Links</p></div>
                 <div class="font-weight-bolder"><ul>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="index.php" >Inicio</a></li>
+                    <li style="list-style:none;"><a class="navtext nav-link" href="index.php" ><i class="fas fa-home"></i> Inicio</a>
                     <li style="list-style:none;"><a class="navtext nav-link" href="#contacto" >Contacto</a></li>
                     <li style="list-style:none;"><a class="navtext nav-link" href="encuesta.php" target="_blank">Encuesta de servicio</a></li>
                    

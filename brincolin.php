@@ -9,57 +9,86 @@
     <title>So's Todo Para Tus Fiestas</title>
    
     <link rel="shortcut icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-	   <link rel="stylesheet" href="css/galeria.css" type="text/css" />
+   <link rel="stylesheet" href="css/style2.css"/> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	  
+	<link rel="stylesheet" href="css/galeria.css" type="text/css" />
     <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
     
     
 </head>
 <body>
 <?php include ("components/navGalerias.php"); ?>
+ <a  href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" target="_blank">
+    <img style=" position: fixed;
+  top: 80%;
+  right: 1%;
+   z-index: 100;" src="img/whatsapp.png"  ></a>
+
+<a class="d-none d-sm-none  d-md-none  d-lg-block d-xl-blocks" href="#cabeza" style=""> <img style=" position: fixed;top: 70%;right: 1%;z-index: 100;" src="img/top.png"  ></a>
+
+   
 
 
 <ul class="gallery_box">
 	<li>
-		<a href="#0"><img src="https://picsum.photos/600/700/?random">
+		<a href="#0"><img src="img/galerias/brincolines/brincolin1.jpg">
 		<div class="box_data">
-			<span>Ravi With Bike</span>
+			
 		</div></a>
 	</li>
 		<li>
-		<a href="#0"><img src="https://picsum.photos/600/701/?random">
+		<a href="#0"><img src="img/galerias/brincolines/brincolin2.jpg">
 		<div class="box_data">
-			<span>Ravi Singh</span>
+			
 		</div></a>
 	</li>
 		<li>
-		<a href="#0"><img src="https://picsum.photos/600/702/?random">
+		<a href="#0"><img src="img/galerias/brincolines/brincolin3.jpg">
 		<div class="box_data">
-			<span>White wall</span>
+		
 		</div></a>
 	</li>
-			<li>
-		<a href="#0"><img src="https://picsum.photos/600/703/?random">
+	<li>
+		<a href="#0"><img src="img/galerias/brincolines/brincolin1.jpg">
 		<div class="box_data">
-			<span>Green Tree</span>
+			
 		</div></a>
 	</li>
-			<li style="    position: relative;
-    top: -134px;">
-		<a href="#0"><img src="https://picsum.photos/600/704/?random">
+		<li>
+		<a href="#0"><img src="img/galerias/brincolines/brincolin2.jpg">
 		<div class="box_data">
-			<span>Blue</span>
+			
 		</div></a>
 	</li>
-			<li>
-		<a href="#0"><img src="https://picsum.photos/600/705/?random">
+		<li>
+		<a href="#0"><img src="img/galerias/brincolines/brincolin3.jpg">
 		<div class="box_data">
-			<span>Ravi</span>
+		
 		</div></a>
 	</li>
+	<li>
+		<a href="#0"><img src="img/galerias/brincolines/brincolin1.jpg">
+		<div class="box_data">
+			
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="img/galerias/brincolines/brincolin2.jpg">
+		<div class="box_data">
+			
+		</div></a>
+	</li>
+		<li>
+		<a href="#0"><img src="img/galerias/brincolines/brincolin3.jpg">
+		<div class="box_data">
+		
+		</div></a>
+	</li>
+			
+			
 	
 </ul>
 
@@ -68,15 +97,14 @@
 
     <?php include ("components/footerGalerias.php"); ?>
 
-	 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    <script src="js/popper.min.js">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>  
+    <script src="js/bootstrap.min.js">
+    </script>   
     
 </body>
 </html>

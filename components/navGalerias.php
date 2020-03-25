@@ -1,4 +1,4 @@
-<div class="container-fluid"style="background-image: url('./img/bg-nav.jpg'); width: 100%; height: 70%;"><br><br></div>
+<div class="container-fluid" id="cabeza" style="background-image: url('./img/bg-nav.jpg'); width: 100%; height: 70%;"><br><br></div>
 <nav class="navbar navbar-expand-lg navbar-light bg-white  " style="background-color: #FEE140;
 background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
      
@@ -11,23 +11,22 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
             <ul class="navbar-nav  nav justify-content-center text-left w-100 font-weight-bolder ">
                
                <li class="nav-item mx-3 my-3">
-                    <a class="nav-link zoom navtext" href="index.php" style=" color: white;font-size: 17px;" >Inicio</a>
+                    <a class=" navtext" href="index.php" style=" font-size: 18px;text-decoration: none;" ><i class="fas fa-home"></i> Inicio</a>
                 </li>
                 
-                
-              
+           
                <li class="nav-item mx-3 my-3">
-                    <a class="nav-link zoom navtext" href="#contacto" style=" color: white;font-size: 17px;" >Contacto</a>
+                    <a class=" navtext" href="#contacto" style=" font-size: 18px;text-decoration: none;" >Contacto</a>
                 </li>
                 <li class="nav-item mx-3 my-3">
-                    <a class="nav-link zoom navtext" href="encuesta.php" style=" color: white;font-size: 17px;" >Encuesta de servicio</a>
+                    <a class=" navtext" href="encuesta.php" style=" font-size: 18px;text-decoration: none;" >Encuesta de servicio</a>
                 </li>
                  <li class="nav-item mx-3 my-3">
-                <a href="https://www.instagram.com/sos.todo.para.tu.fiesta/" target="_blank"><img src="./img/instagram.png" alt="" class="zoom"></a>
+                <a   class="  navtext" style="text-decoration: none;" href="https://www.instagram.com/sos.todo.para.tu.fiesta/" target="_blank"><img src="./img/insta.png" >&nbsp;Instagram</a>
                 
                 </li>
                  <li class="nav-item mx-3 my-3">
-                 <a href="https://www.facebook.com/Sos-Todo-para-t%C3%BA-fiesta-1239111629602799/" target="_blank"><img src="./img/facebook.png" alt="" class="zoom"></a>
+                 <a   class="  navtext" style="text-decoration: none;" href="https://www.facebook.com/Sos-Todo-para-t%C3%BA-fiesta-1239111629602799/" target="_blank"><img src="./img/facebook.png" >&nbsp;Facebook</a>
          </li>
           
                  

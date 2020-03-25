@@ -8,13 +8,10 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
             <div class="col-md-3 col-sm-4 col-12 text-left">
                 <div><p class="text-white font-weight-bolder" style="font-size: 30px;">Conózcanos</p></div>
                 <div class="font-weight-bolder"><ul>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="#cabeza" ><i class="fas fa-home"></i> Inicio</a>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="#services" >Servicios</a></li>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="#sobreNosotros" >Sobre nosotros</a></li>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="#contacto" >Contacto</a></li>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="encuesta.php" target="_blank">Encuesta de servicio</a></li>
+                    <li style="list-style:none;"><a class="navtext nav-link" href="index.php" ><i class="fas fa-home"></i> Inicio</a>
+                  
+               
                    
-                
                     </ul>
                 </div>
             </div>

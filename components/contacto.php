@@ -2,8 +2,8 @@
    <div class="col-sm-12 col-md-12  w-100 text-center " >
                     <div class="jumbotron jumbotron-fluid bg-white ">
   <div class="container ">
-    <h2 class="display-3 text-center font-weight-bolder" id="contacto">Contacto </h2>
-    
+    <h2 class="display-4 text-center font-weight-bolder" id="contacto">Contacto </h2>
+    <div ><img src="./img/menos.png" alt=""></div>
    <h4 style="color: darksalmon;">Envianos un mensaje con tus dudas o comentarios </h4>
     
   </div>

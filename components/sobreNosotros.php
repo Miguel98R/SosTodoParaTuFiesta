@@ -2,7 +2,8 @@
   <div class="col-sm-12 col-md-12  w-100 text-center " >
                   
   <div class="container  my-5">
-    <h2 class="display-3 text-center font-weight-bolder" id="sobreNosotros" >Sobre Nosotros </h2>
+    <h2 class="display-4 text-center font-weight-bolder" id="sobreNosotros" >Sobre Nosotros </h2>
+     <img src="./img/menos.png" alt="">
     
    <h4 style="color: darksalmon;">Conócenos </h4>
     
@@ -94,7 +95,7 @@
                                  
                                 </div>
                                   <div class="col-md-4  py-2">
-                                   <div style="font-size: 30px;color:  #f996e9;"><img src="./img/cliente.png"/><h3>Servicial</h3> </div>
+                                   <div style="font-size: 30px;color:  #f996e9;"><img src="./img/informacion.png"/><h3>Servicial</h3> </div>
                                  <p class="font-italic">Dispuestos siempre a prestar ayuda.</p> 
                                  
                                 </div>

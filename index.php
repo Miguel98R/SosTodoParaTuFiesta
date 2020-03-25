@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <title>So's Todo Para Tus Fiestas</title>
-   
+    <link rel="stylesheet" href="css/style2.css"/> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <link rel="shortcut icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+   
     <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    <title>So's Todo Para Tus Fiestas</title>
     
     
 </head>
 
 
 <body>
- <a  id ="whatsapp" href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" style=" position: fixed;
+ <a  href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" target="_blank">
+    <img style=" position: fixed;
   top: 80%;
   right: 1%;
-   z-index: 100;" target="_blank">
-    <img src="img/whatsapp.png" style=" position: fixed;
-  top: 80%;
-  right: 1%;
-   z-index: 100;" ></a>
+   z-index: 100;" src="img/whatsapp.png"  ></a>
+
+<a class="d-none d-sm-none  d-md-none  d-lg-block d-xl-blocks" href="#cabeza" style=""> <img style=" position: fixed;top: 70%;right: 1%;z-index: 100;" src="img/top.png"  ></a>
 
    
 
@@ -55,6 +56,8 @@
     </script>
     <script src="js/bootstrap.min.js">
     </script>  
+
+     
      
 </body>
 

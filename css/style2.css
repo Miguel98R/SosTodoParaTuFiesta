@@ -1,29 +1,29 @@
-
+body{
+  margin: 0;
+   font-family: "Poppins", sans-serif;
+}
 .logo {
     width: 120px;
     height: 120px;
 }
 
-#whatsapp {
-  position: fixed;
-  top: 80%;
-  right: 1%;
-   z-index: 100;
-}
-
-
-
 .navtext{
    color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #00d4ff; 
+  text-shadow: 1px 1px 2px black, 0 0 25px z, 0 0 5px #00d4ff; 
 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* -------------------------  SOBRE NOSOTROS ----------------------------------------------------- */
 
 
 
-.how-img 
-{
+/*.how-img 
+ {
     text-align: center;
 }
 .how-img img{
@@ -31,14 +31,15 @@
 }
 
 .zoom {
-  transition: transform .60s; /* Animation */
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
  
 }
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   transform: scale(2); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
   border-color: transparent ;
 
-}
+} */
 
 .button {
   background-color: #4CAF50;
