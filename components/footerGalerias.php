@@ -6,7 +6,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
         <div class="row">
             <div class="col-md-3 col-sm-12 text-center"> <a class="navbar-brand" href="#"><img src="./img/logo.jpg" class="logo rounded-circle img-fluid py-4"  style="width:50%; height:auto"  alt=""/></a></div>
             <div class="col-md-3 col-sm-4 col-12 text-left">
-                <div><p class="navtext" style="font-size: 30px;">Links</p></div>
+                <div><p class="text-white font-weight-bolder" style="font-size: 30px;">Conózcanos</p></div>
                 <div class="font-weight-bolder"><ul>
                     <li style="list-style:none;"><a class="navtext nav-link" href="index.php" ><i class="fas fa-home"></i> Inicio</a>
                     <li style="list-style:none;"><a class="navtext nav-link" href="#contacto" >Contacto</a></li>
@@ -17,18 +17,18 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-12 text-left">
-                <div><p class="navtext" style="font-size: 30px;">Redes Sociales</p></div>
+               <div><p class="text-white font-weight-bolder" style="font-size: 30px;">Redes Sociales</p></div>
                 <div class="font-weight-bolder"><ul>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="https://www.instagram.com/sos.todo.para.tu.fiesta/" target="_blank"><img src="./img/instagram.png" >Instagram</a></li>
+                    <li style="list-style:none;"><a class="navtext nav-link" href="https://www.instagram.com/sos.todo.para.tu.fiesta/" target="_blank"><img src="./img/insta.png" >&nbsp;Instagram</a></li>
                     <br>
-                    <li style="list-style:none;"><a class="navtext nav-link" href="https://www.facebook.com/Sos-Todo-para-t%C3%BA-fiesta-1239111629602799/" target="_blank"><img src="./img/facebook.png" >Facebook</a>
+                    <li style="list-style:none;"><a class="navtext nav-link" href="https://www.facebook.com/Sos-Todo-para-t%C3%BA-fiesta-1239111629602799/" target="_blank"><img src="./img/facebook.png" >&nbsp;Facebook</a>
                     </li>        
                     </ul>
                 </div>
 
             </div>
             <div class="col-md-3 col-sm-4 col-12 text-left">
-                <div><p class="navtext nav-link" style="font-size: 30px;">Términos y condiciones</p></div>
+               <div><p class="text-white font-weight-bolder" style="font-size: 30px;">Términos y condiciones</p></div>
                 <!-- Large modal -->
 <button type="button" class="btn button2 text-white font-weight-bolder " data-toggle="modal" data-target=".bd-example-modal-lg">Ver términos y condiciones</button>
 

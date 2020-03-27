@@ -34,7 +34,7 @@
 ">
   <div class="card-body">
     <h2 class="card-title text-center text-white">Velas Personalizadas</h2>
-      <a href="#" class="btn btn btn-warning">Más información</a>
+      <a href="./velas.php" class="btn btn btn-warning">Más información</a>
   </div>
     <img src="./img/servicios/velas.jpeg" alt="" width="100%" height="470px">
 </div>
@@ -55,7 +55,7 @@
 ">
   <div class="card-body">
    <h2 class="card-title text-center text-white">Mesas de dulces</h2>
-      <a href="#" class="btn btn btn-warning">Más información</a>
+      <a href="./mesasdulces.php" class="btn btn btn-warning">Más información</a>
   </div>
    <img src="./img/servicios/mesas.jpeg" alt="" width="100%" height="470px">
 </div>
@@ -68,7 +68,7 @@
       <div class="card" style="background-color: #00d4ff;">
   <div class="card-body">
    <h2 class="card-title text-center text-white">Centros De Mesa</h2>
-      <a href="#" class="btn btn btn-warning">Más información</a>
+      <a href="./mesacentros.php" class="btn btn btn-warning">Más información</a>
   </div>
  <img src="./img/servicios/centros-mesa.jpeg" alt="" width="100%" height="470px">
 </div>
@@ -88,7 +88,7 @@
 ">
   <div class="card-body">
    <h2 class="card-title text-center text-white">Flores Rehidratadas</h2>
-      <a href="#" class="btn btn btn-warning">Más información</a>
+      <a href="./flores.php" class="btn btn btn-warning">Más información</a>
   </div>
    <img src="./img/servicios/flores.jpeg" alt="" width="100%" height="470px">
 </div>
@@ -103,7 +103,7 @@
 ">
   <div class="card-body">
    <h2 class="card-title text-center text-white">Porcelanicron</h2>
-      <a href="#" class="btn btn btn-warning">Más información</a>
+      <a href="./porcelanicron.php" class="btn btn btn-warning">Más información</a>
   </div>
    <img src="./img/servicios/porce.jpeg" alt="" width="100%" height="470px">
 </div>

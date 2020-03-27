@@ -29,17 +29,22 @@ html {
 .how-img img{
     width: 40%;
 }
-
-.zoom {
-  transform-origin: 0 0;
-  transition: transform .25s, visibility .25s ease-in;
- 
-}
-.zoom:hover {
-   transform: scale(2); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
-  border-color: transparent ;
-
-} */
+*/
+   .zoom{
+        /* Aumentamos la anchura y altura durante 2 segundos */
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+    }
+    .zoom:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(.9);
+        -moz-transform : scale(.9);      /* Firefox */
+        -webkit-transform : scale(.9);   /* Chrome - Safari */
+        -o-transform : scale(.9);        /* Opera */
+    }
 
 .button {
   background-color: #4CAF50;
@@ -76,4 +81,22 @@ background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 
 /* GALERIA*/
 
+.serviciosOtros {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
+/* Green */
+.naranja {
+  border-color: orangered;
+  color: orange;
+}
+
+.naranja:hover {
+  background-color: orangered;
+  color: white;
+}

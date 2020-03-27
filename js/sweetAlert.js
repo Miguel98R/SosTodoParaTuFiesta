@@ -14,34 +14,13 @@ function validar(){
     seis = document.getElementById("PreguntaSeis").value;
     siete = document.getElementById("PreguntaSiete").value;
     ocho = document.getElementById("PreguntaOcho").value;
-    nueve = document.getElementById("PreguntaNueve").value;
-    
-    let i;
+    nueve = document.getElementById("PreguntaNueve").selectedIndex;
 
-    
 
- 
-   
-    console.log("Aqui Uno" + uno);
-     console.log("Aqui Dos" +  dos);
-     console.log("Aqui Tres" + tres);
-     console.log("Aqui cuatro" + cuatro);
-     console.log("Aqui cinco" + cinco);
-     console.log("Aqui Seis" + seis);
-     console.log("Aqui siete" + siete);
-     console.log("Aqui ocho" + ocho);
-     console.log("Aqui nueve" + nueve);
-    
-      let opcion = ["Mal","Regular","Bueno","Muy Bueno","Excelente"];
-    
+
 
     
     
-       
-    
-
-    
-  
      if(uno==="" || uno===false  || uno===undefined ){
        Swal.fire({icon: 'warning',title:"Por favor responde la pregunta uno"});
         return false;
@@ -125,27 +104,16 @@ function validar(){
     }
 
     }
-
-     if(nueve==="" || nueve===false ||  nueve===undefined ){
-       Swal.fire({icon: 'warning',title:"Por favor responde la pregunta nueve"});
-        return false;
-    }
-
-   for(i=0;i<opcion.length;i++){
-       if (nueve===opcion[i]) {
-        
-         return true;
-      
-    }else{
-      Swal.fire({icon: 'error',title:"Por favor responde la pregunta con las opciones correctas"});
-      return false;
-    }
-      
-    }
-
-     
-
-     
-   
     
+    if( nueve == null || nueve == 0 ) {
+       Swal.fire({icon: 'warning',title:"Por favor responde la pregunta nueve"});
+  return false;
+}
+
+
+  
+
+   
+  
+      
 }
