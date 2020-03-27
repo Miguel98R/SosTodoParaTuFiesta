@@ -12,7 +12,7 @@
    <link rel="stylesheet" href="css/style2.css"/> 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	  
-	<link rel="stylesheet" href="css/galeria.css" type="text/css" />
+	
     <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->  
 </head>

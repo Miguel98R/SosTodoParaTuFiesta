@@ -1,6 +1,6 @@
 <?php 
 
-include ('conexion.php');
+include ('util/conexion.php');
 
 $servicio = $_POST['servicio'];
 
@@ -21,12 +21,12 @@ $result = $conn->query($sql) or die (mysqli_error($conn));
 if($result==true){
     echo'<script type="text/javascript">
         alert("Imagen guardada con exito");
-        window.location.href="../admin.php";
+        window.location.href="admin.php";
         </script>';
 }else{
     echo'<script type="text/javascript">
         alert("Error al guardar foto");
-        window.location.href="../admin.php";
+        window.location.href="admin.php";
         </script>';
 }
 

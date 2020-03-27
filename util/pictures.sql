@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-03-2020 a las 08:04:06
+-- Tiempo de generación: 27-03-2020 a las 18:02:34
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.3.0
 
@@ -33,17 +33,6 @@ CREATE TABLE `brincolin` (
   `ruta` varchar(250) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `brincolin`
---
-
-INSERT INTO `brincolin` (`id`, `ruta`) VALUES
-(1, 'img/brincolin/brincolin1.jpg'),
-(2, 'img/brincolin/brincolin2.jpg'),
-(3, 'img/brincolin/brincolin3.jpg\r\n'),
-(4, 'img/brincolin/brincolin4.jpg'),
-(5, 'img/brincolin/brinolin5.jpg');
-
 -- --------------------------------------------------------
 
 --
@@ -65,17 +54,6 @@ CREATE TABLE `mesascentros` (
   `id` int(11) NOT NULL,
   `ruta` varchar(150) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `mesascentros`
---
-
-INSERT INTO `mesascentros` (`id`, `ruta`) VALUES
-(1, 'img/mesascentros/centrosMesa1.jpg'),
-(2, 'img/mesascentros/centroMesa2.jpg'),
-(3, 'img/mesascentros/centrosMesa3.jpg'),
-(4, 'img/mesascentros/centrosMesa4.jpg'),
-(5, 'img/mesascentros/78938277_1392518184262142_3744144023825154048_n.jpg');
 
 -- --------------------------------------------------------
 
@@ -109,13 +87,6 @@ CREATE TABLE `velas` (
   `id` int(11) NOT NULL,
   `ruta` varchar(150) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `velas`
---
-
-INSERT INTO `velas` (`id`, `ruta`) VALUES
-(1, 'img/velas/78350888_1372658606248100_3735122114307424256_n.jpg');
 
 --
 -- Índices para tablas volcadas
@@ -165,19 +136,19 @@ ALTER TABLE `velas`
 -- AUTO_INCREMENT de la tabla `brincolin`
 --
 ALTER TABLE `brincolin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `flores`
 --
 ALTER TABLE `flores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `mesascentros`
 --
 ALTER TABLE `mesascentros`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `mesasdulces`
@@ -195,7 +166,7 @@ ALTER TABLE `porcelanicron`
 -- AUTO_INCREMENT de la tabla `velas`
 --
 ALTER TABLE `velas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
