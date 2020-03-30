@@ -41,18 +41,18 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 <div class="container-fluid py-4">
    
  <div class=" container text-center my-5 ">
-   <h2 class="display-4 text-center font-weight-bolder"  >¿Qué desea hacer?</h2>
+   <h3 class="display-4 text-center font-weight-bolder"  >Imagenes para las galerias</h3>
   <img src="./img/menos.png" alt="">
      <div class="row my-5">
-         <div class="col-md-6 col-sm-12 my-1">
+         <div class="col-md-12 col-sm-12 my-1">
             
           <?php include("components/subirImagen.php") ?>
          </div>
-        <div class="col-md-6 col-sm-12 my-1 ">
+        <!-- <div class="col-md-6 col-sm-12 my-1 ">
             <a  href="#" class="button2" >Eliminar imagenes</a>
              
                    
-         </div>
+         </div> -->
      </div>
       </div>
      
