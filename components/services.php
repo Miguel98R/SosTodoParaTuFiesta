@@ -10,109 +10,88 @@
 </div>
     
   </div>
-<div class="container" style="background-color: transparent; border: none; " >
-    
-
-<div class="row text-center d-flex justify-content-center">
-
-    <div class="col-md-6 py-3">
-
-         <div class="card" style="background-color: #00d4ff;"> 
-  <div class="card-body">
-    <h2 class="card-title text-center text-white">Inflables y brincolines</h2>
-      <a href="./brincolin.php" class="btn btn btn-warning">Más información</a>
-  </div>
-  <img src="./img/servicios/brincolin.jpeg" alt="" width="100%" height="470px">
-</div>
-
-  
-</div>
-
- <div class="col-md-6 py-3">
-
-      <div class="card" style="background-color: #ffde00;
-">
-  <div class="card-body">
-    <h2 class="card-title text-center text-white">Velas Personalizadas</h2>
-      <a href="./velas.php" class="btn btn btn-warning">Más información</a>
-  </div>
-    <img src="./img/servicios/velas.jpeg" alt="" width="100%" height="470px">
-</div>
-
-  
-</div>
+<div class="container"  >
 
     
-
-
-</div>
-<div class="row text-center d-flex justify-content-center">
-
-   <div class="col-md-6 py-3">
-
-      <div class="card" style="background-color: #f996e9;
-
-">
-  <div class="card-body">
-   <h2 class="card-title text-center text-white">Mesas de dulces</h2>
-      <a href="./mesasdulces.php" class="btn btn btn-warning">Más información</a>
+<div >
+  <div class="row py-2">
+    <div class="col-md-6">
+      <div>
+    <?php include ("./carrusel/brincolin.php") ?>
   </div>
-   <img src="./img/servicios/mesas.jpeg" alt="" width="100%" height="470px">
-</div>
-
+      <div > <h3 style="font-size: 29px; background: radial-gradient(circle,  rgb(234, 8, 113) 0%,  rgb(245, 157, 42) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="mt-3 mr-2 text-center font-weight-bolder" >Inflables y brincolines </h3>
+       </div>
+  <div class="text-center"><a  href="./brincolin.php" class="button3 text-center"  >Ver galeria </a></div>
   
-</div>
-
- <div class="col-md-6 py-3">
-
-      <div class="card" style="background-color: #00d4ff;">
-  <div class="card-body">
-   <h2 class="card-title text-center text-white">Centros De Mesa</h2>
-      <a href="./mesacentros.php" class="btn btn btn-warning">Más información</a>
+    </div>
+   
+     <div class="col-md-6">
+       <div>
+    <?php include ("./carrusel/velas.php") ?>
   </div>
- <img src="./img/servicios/centros-mesa.jpeg" alt="" width="100%" height="470px">
-</div>
+      <div > <h3 style="font-size: 29px; background: radial-gradient(circle,  rgb(234, 8, 113) 0%,  rgb(245, 157, 42) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="mt-3 mr-2 text-center font-weight-bolder" >Velas personalizadas </h3>
+       </div>
+  <div class="text-center"><a  href="./velas.php" class="button3 text-center"  >Ver galeria </a></div>
+  
+    </div>
 
+    </div>
+
+  </div>
+  <div class="row py-2">
+   <div class="col-md-6">
+     <div>
+    <?php include ("./carrusel/mesasdulces.php") ?>
+  </div>
+      <div > <h3 style="font-size: 29px; background: radial-gradient(circle,  rgb(234, 8, 113) 0%,  rgb(245, 157, 42) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="mt-3 mr-2 text-center font-weight-bolder" >Mesas de dulces </h3>
+       </div>
+  <div class="text-center"><a  href="./mesasdulces.php" class="button3 text-center"  >Ver galeria </a></div>
   
-</div>
+    </div>
+   <div class="col-md-6">
+     <div>
+    <?php include ("./carrusel/mesacentros.php") ?>
+  </div>
+      <div > <h3 style="font-size: 29px; background: radial-gradient(circle,  rgb(234, 8, 113) 0%,  rgb(245, 157, 42) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="mt-3 mr-2 text-center font-weight-bolder" >Centros de mesa </h3>
+       </div>
+  <div class="text-center"><a  href="./mesacentros.php" class="button3 text-center"  >Ver galeria </a></div>
   
+    </div>
     
-
-
-</div>
-<div class="row text-center d-flex justify-content-center">
-
-   <div class="col-md-6 py-3">
-
-       <div class="card" style="background-color: #ffde00;
-">
-  <div class="card-body">
-   <h2 class="card-title text-center text-white">Flores Rehidratadas</h2>
-      <a href="./flores.php" class="btn btn btn-warning">Más información</a>
   </div>
-   <img src="./img/servicios/flores.jpeg" alt="" width="100%" height="470px">
-</div>
-
-  
-</div>
-
- <div class="col-md-6 py-3">
-
-        <div class="card" style="background-color: #f996e9;
-
-">
-  <div class="card-body">
-   <h2 class="card-title text-center text-white">Porcelanicron</h2>
-      <a href="./porcelanicron.php" class="btn btn btn-warning">Más información</a>
+ <div class="row py-2">
+    <div class="col-md-6">
+      <div>
+    <?php include ("./carrusel/flores.php") ?>
   </div>
-   <img src="./img/servicios/porce.jpeg" alt="" width="100%" height="470px">
-</div>
-
+      <div > <h3 style="font-size: 29px; background: radial-gradient(circle,  rgb(234, 8, 113) 0%,  rgb(245, 157, 42) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="mt-3 mr-2 text-center font-weight-bolder" >Flores rehidratadas </h3>
+       </div>
+  <div class="text-center"><a  href="./flores.php" class="button3 text-center"  >Ver galeria </a></div>
   
-</div>
+    </div>
+    <div class="col-md-6">
+      <div>
+    <?php include ("./carrusel/porcelanicron.php") ?>
+  </div>
+      <div > <h3 style="font-size: 29px; background: radial-gradient(circle,  rgb(234, 8, 113) 0%,  rgb(245, 157, 42) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="mt-3 mr-2 text-center font-weight-bolder" >Porcelanicron </h3>
+       </div>
+  <div class="text-center"><a  href="./porcelanicron.php" class="button3 text-center"  >Ver galeria </a></div>
   
- 
+    </div>
     
+  </div>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
 
 
 </div>
@@ -123,5 +102,3 @@
 
 
 
-
-</div>

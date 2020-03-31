@@ -10,6 +10,8 @@ $pregunta7 = $_POST['PreguntaSiete'];
 $pregunta8 = $_POST['PreguntaOcho'];
 $pregunta9 = $_POST['PreguntaNueve'];
 
+
+// $destinatario = "sos.todo.para.tu.fiesta@gmail.com";
 $destinatario = "miguelxbox3303@gmail.com";
 $asunto="Resultados de la encuesta realizada desde nuestra web";
 
@@ -24,7 +26,10 @@ $carta .="7-. ¿Le agrado el trato del personal?R= \n $pregunta7 \n\n";
 $carta .="8-. ¿Le dieron a mostraron el contrato previo del servicio adquirido? R= \n $pregunta8 \n\n";
 $carta .="9-. Podría decirnos la puntuación del producto o servicio adquirido? R= \n $pregunta9 \n\n";
 
-mail($destinatario,$asunto,$carta);
+$headers .= 'From: <sostodoparatufiesta@example.com>' . "\r\n";
+$headers .= 'Cc: sostodoparatufiesta@example.com' . "\r\n";
+
+mail($destinatario,$asunto,$carta,$headers);
 header('Location:../confirmacion.php');
 
 ?>

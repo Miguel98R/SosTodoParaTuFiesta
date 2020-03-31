@@ -18,16 +18,10 @@
 </head>
 <body>
 
+<?php include ("components/botones.php"); ?>
+
 <?php include ("components/navGalerias.php"); ?>
  
-<a  href="https://api.whatsapp.com/send?phone=527711689754&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes" target="_blank">
-    <img style=" position: fixed;
-  top: 80%;
-  right: 1%;
-   z-index: 100;" src="img/whatsapp.png"  ></a>
-
-<a class="d-none d-sm-none  d-md-none  d-lg-block d-xl-blocks" href="#cabeza" style=""> <img style=" position: fixed;top: 70%;right: 1%;z-index: 100;" src="img/top.png"  ></a>
-
 
 
 <header ><div class="py-3 container-fluid" style="background-color: #FEE140;
@@ -70,7 +64,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 	 while($datos=$result->fetch_assoc()){
 ?>
  <div class="col-lg-4 col-md-12 col-sm-12 py-2 px-2 justify-content-center">
-    <img style="z-index: 100;" class="py-2 zoom" src="<?php echo $datos['ruta'];?>" width='100%'  >
+    <img style="z-index: 100;height: 330px;border-radius: 10%;" class=" d-block w-100 py-2 zoom" class="py-2 zoom" src="<?php echo $datos['ruta'];?>"  >
 </div>
 	
 	<?php  }?>

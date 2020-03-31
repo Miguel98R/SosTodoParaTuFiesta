@@ -48,7 +48,7 @@ html {
 
 .button {
   background-color: #4CAF50;
-  border: none;
+  border-radius: 20px;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -64,7 +64,23 @@ html {
 background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 
 
-  border: none;
+   border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: rgb(234, 211, 8);
+background-image: linear-gradient(0deg, rgb(234, 8, 113) 0%, rgb(245, 157, 42) 100%);
+
+
+  border-radius: 20px;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -99,4 +115,12 @@ background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 .naranja:hover {
   background-color: orangered;
   color: white;
+}
+
+
+
+.borders{
+  z-index: 100;
+  height: 350px;
+  border-radius: 30px;
 }
