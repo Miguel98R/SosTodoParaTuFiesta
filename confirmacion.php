@@ -39,7 +39,7 @@
 background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 " >
   <div class="row">
-    <div class="col-lg-4 col-md-12 col-xs-4 col-12 text-center d-none d-sm-none  d-md-none  d-lg-block d-xl-blocks "><img src="./img/logo.jpg" class="rounded-circle img-fluid py-3" alt=""  style="width:85%; height:auto" /></div>
+    <div class="col-lg-4 col-md-12 col-xs-4 col-12 text-center d-none d-sm-none  d-md-none  d-lg-block d-xl-blocks "><img src="./img/logo.jpeg" class="rounded-circle img-fluid py-3" alt=""  style="width:85%; height:auto" /></div>
     <div class="col-lg-8 col-md-12 col-xs-8 col-12 text-center"> 
         <h1 class="font-weight-bolder" style="display: flex;justify-content: center;margin: 15vh 1px;width: 100%;font-size:50px;
   color:white;">Tu encuesta se ha enviado con exito. <br> Gracias por tu preferencia!</h1>
@@ -79,7 +79,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
         <div class="row">
             <div class="col-lg-3 col-md-12 col-sm-12 text-center"> 
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo.jpg" class="logo rounded-circle img-fluid py-4"  style="width:50%; height:auto"  alt=""/>
+                    <img src="./img/logo.jpeg" class="logo rounded-circle img-fluid py-4"  style="width:50%; height:auto"  alt=""/>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-4 col-12 ">

@@ -2,7 +2,7 @@
   <div class="col-sm-12 col-md-12  w-100 text-center " >
                   
   <div class="container  my-5">
-    <h2 class="display-4 text-center font-weight-bolder" id="sobreNosotros" >Sobre Nosotros </h2>
+    <h2 class="display-4 text-center font-weight-bolder" id="sobreNosotros" >Sobre nosotros </h2>
      <img src="./img/menos.png" alt="">
     
    <h4 style="color: darksalmon;">Conócenos </h4>

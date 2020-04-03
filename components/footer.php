@@ -6,7 +6,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
         <div class="row">
             <div class="col-lg-3 col-md-12 col-sm-12 text-center"> 
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo.jpg" class="logo rounded-circle img-fluid py-4"  style="width:50%; height:auto"  alt=""/>
+                    <img src="./img/logo.jpeg" class="logo rounded-circle img-fluid py-4"  style="width:50%; height:auto"  alt=""/>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-4 col-12 ">
