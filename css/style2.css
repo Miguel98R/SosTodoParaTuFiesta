@@ -1,25 +1,32 @@
-body{
-  margin: 0;
-   font-family: "Poppins", sans-serif;
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
+
 .logo {
     width: 120px;
     height: 120px;
 }
 
-.navtext{
-   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px z, 0 0 5px #00d4ff; 
-
+.navtext {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px z, 0 0 5px #00d4ff;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+.inputDato {
+    background-color: transparent;
+    border: 2px solid rgb(115, 215, 255);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 
 /* -------------------------  SOBRE NOSOTROS ----------------------------------------------------- */
-
 
 
 /*.how-img 
@@ -30,97 +37,105 @@ html {
     width: 40%;
 }
 */
-   .zoom{
-        /* Aumentamos la anchura y altura durante 2 segundos */
-        transition: width 2s, height 2s, transform 2s;
-        -moz-transition: width 2s, height 2s, -moz-transform 2s;
-        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-        -o-transition: width 2s, height 2s,-o-transform 2s;
-    }
-    .zoom:hover{
-        /* tranformamos el elemento al pasar el mouse por encima al doble de
+
+.zoom {
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s, -o-transform 2s;
+}
+
+.zoom:hover {
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
            su tamaño con scale(2). */
-        transform : scale(.9);
-        -moz-transform : scale(.9);      /* Firefox */
-        -webkit-transform : scale(.9);   /* Chrome - Safari */
-        -o-transform : scale(.9);        /* Opera */
-    }
+    transform: scale(.9);
+    -moz-transform: scale(.9);
+    /* Firefox */
+    -webkit-transform: scale(.9);
+    /* Chrome - Safari */
+    -o-transform: scale(.9);
+    /* Opera */
+}
 
 .button {
-  background-color: #4CAF50;
-  border-radius: 20px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    background-color: #4CAF50;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .button2 {
-  background-color: #08AEEA;
-background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
-
-
-   border-radius: 20px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .button3 {
-  background-color: rgb(234, 211, 8);
-background-image: linear-gradient(0deg, rgb(234, 8, 113) 0%, rgb(245, 157, 42) 100%);
-
-
-  border-radius: 20px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    background-color: rgb(234, 211, 8);
+    background-image: linear-gradient(0deg, rgb(234, 8, 113) 0%, rgb(245, 157, 42) 100%);
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-/* -------------------------  FOOTER ----------------------------------------------------- */
 
+/* -------------------------  FOOTER ----------------------------------------------------- */
 
 
 /* GALERIA*/
 
 .serviciosOtros {
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
+
 /* Green */
+
 .naranja {
-  border-color: orangered;
-  color: orange;
+    border-color: orangered;
+    color: orange;
 }
 
 .naranja:hover {
-  background-color: orangered;
-  color: white;
+    background-color: orangered;
+    color: white;
 }
 
+.borders {
+    z-index: 100;
+    height: 350px;
+    border-radius: 30px;
+}
 
-
-.borders{
-  z-index: 100;
-  height: 350px;
-  border-radius: 30px;
+.borders2 {
+    z-index: 100;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
 }

@@ -1,0 +1,51 @@
+            .login {
+                border-radius: 20px;
+                width: 100%;
+                height: auto;
+                background-color: #FEE140;
+                background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+            }
+            
+            input[type="text"] {
+                color: white;
+            }
+            
+            input[type="password"] {
+                color: white;
+            }
+            
+             ::placeholder {
+                color: white;
+            }
+            
+            input#paciente[type="text"] {
+                color: #000;
+            }
+            
+            input#paciente::placeholder {
+                color: #000;
+            }
+            
+            .inputDato {
+                background-color: transparent;
+                border: 2px solid rgb(115, 215, 255);
+                border-top: 0px;
+                border-left: 0px;
+                border-right: 0px;
+            }
+            
+            .button2 {
+                background: rgba(88, 235, 151, 1.0);
+                background: -webkit-linear-gradient(top left, rgba(88, 235, 151, 1.0), rgba(97, 230, 255, 1.0));
+                background: -moz-linear-gradient(top left, rgba(88, 235, 151, 1.0), rgba(97, 230, 255, 1.0));
+                background: linear-gradient(to bottom right, rgba(88, 235, 151, 1.0), rgba(97, 230, 255, 1.0));
+                border-radius: 20px;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
