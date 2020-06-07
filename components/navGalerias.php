@@ -3,7 +3,7 @@
 background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
      
     <div class="container-fluid"  >
-        <a class="navbar-brand" href="#"><img src="./img/logo.jpg" class="logo rounded-circle img-fluid d-block d-sm-block  d-md-block  d-lg-none d-xl-none " alt=""/></a>
+        <a class="navbar-brand" href="#"><img src="./img/logo.jpeg" class="logo rounded-circle img-fluid d-block d-sm-block  d-md-block  d-lg-none d-xl-none " alt=""/></a>
         <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbar1">
             Menu <i class="navbar-toggler-icon"></i>
         </button>

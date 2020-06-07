@@ -6,7 +6,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
         <div class="row">
             <div class="col-lg-3 col-md-12 col-sm-12 text-center"> 
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo.jpg" class="logo rounded-circle img-fluid py-4"  style="width:50%; height:auto"  alt=""/>
+                    <img src="./img/logo.jpeg" class="logo rounded-circle img-fluid py-4"  style="width:50%; height:auto"  alt=""/>
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-4 col-12 ">
@@ -19,7 +19,7 @@ background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
             </div>
          
             <div class="col-lg-3 col-md-4 col-sm-4 col-12  text-left">
-                <div><p class="text-white  font-weight-bolder" style="font-size: 30px;">Medios de contactó</p></div>
+                <div><p class="text-white  font-weight-bolder" style="font-size: 30px;">Medios de contacto</p></div>
               <div class="font-weight-bolder">
                   
                          <li style="list-style:none;"><a class="navtext nav-link" href="#footer" ><i class="fas fa-phone"></i> 771 168 9754</a></li>

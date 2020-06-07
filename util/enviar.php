@@ -11,8 +11,8 @@ $pregunta8 = $_POST['PreguntaOcho'];
 $pregunta9 = $_POST['PreguntaNueve'];
 
 
-// $destinatario = "sos.todo.para.tu.fiesta@gmail.com";
-$destinatario = "miguelxbox3303@gmail.com";
+$destinatario = "sos.todo.para.tu.fiesta@gmail.com";
+//$destinatario = "miguelxbox3303@gmail.com";
 $asunto="Resultados de la encuesta realizada desde nuestra web";
 
 $carta ="En esta encuesta se tuvieron las siguientes respuestas: \n\n";
