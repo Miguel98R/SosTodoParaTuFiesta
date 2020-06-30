@@ -26,6 +26,7 @@
                                         <option value="mesascentros">Centros de Mesa</option>
                                         <option value="flores">Flores rehidratadas</option>
                                         <option value="porcelanicron">Porcelanicron</option>
+                                        <option value="promociones">Promociones</option>
 
                                     </select>
                                 </div>

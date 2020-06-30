@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/styleLogin.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <link rel="shortcut icon" href="img/favicon.ico" />
-    <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
-    <title>Administración</title>
-</head>
+<?php include "components/head.php" ?>
 
 <body>
 
@@ -20,8 +7,8 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center justify-content-center align-content-center">
-                <div class="login text-center my-5 ">
-                    <div class="text-center py-4 px-5">
+                <div class="peach-gradient text-center my-5 " style="border-radius:20px;">
+                    <div class="text-center py-3 px-5">
                         <img class="rounded-circle img-fluid logo" src="img/logo.jpeg" alt="" width="200" height="200">
                     </div>
                     <div class="text-center ">

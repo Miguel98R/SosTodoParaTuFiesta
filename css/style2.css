@@ -115,17 +115,13 @@ html {
 }
 
 
-/* Green */
 
-.naranja {
-    border-color: orangered;
+.naranjaTexto {
+ 
     color: orange;
 }
 
-.naranja:hover {
-    background-color: orangered;
-    color: white;
-}
+
 
 .borders {
     z-index: 100;
@@ -135,7 +131,33 @@ html {
 
 .borders2 {
     z-index: 100;
-    width: 150px;
-    height: 150px;
-    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
 }
+
+   .swiper-container {
+      width: 300px;
+      height: 500px;
+     
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .promo{
+     
+       width:310px ;
+      height:510px ;
+    }
+/* 
+   @media only screen and (max-width: 600px) {
+        .promo{
+     
+       width:120px ;
+      height:290px ;
+    }
+    } */
+  

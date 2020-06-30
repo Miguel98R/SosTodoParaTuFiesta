@@ -1,4 +1,4 @@
-<div id="carouselExampleControlsmesascentros" class="carousel slide" data-ride="carousel" data-interval="100000000000">
+<div id="carouselExampleControlsmesascentros" class="carousel slide carousel-fade"  data-ride="carousel" data-interval="100000000000">
     <div class="carousel-inner">
 
 

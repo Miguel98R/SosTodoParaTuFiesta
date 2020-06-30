@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-   <link rel="stylesheet" href="css/style2.css"/> 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <link rel="shortcut icon" href="img/favicon.ico" />
-    
-   
-    <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-   
-    <title>So's Todo Para Tus Fiestas</title>
-    
-    
-</head>
+<?php include "components/head.php" ?>
 
 
 <body>

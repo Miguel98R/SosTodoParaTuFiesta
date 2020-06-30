@@ -1,8 +1,7 @@
-<div class="container-fluid" id="cabeza" style="background-image: url('./img/bg-nav.jpg'); width: 100%; height: 70%;"><br><br></div>
-<nav class="navbar navbar-expand-lg navbar-light bg-white  " style="background-color: #FEE140;
-background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
+<nav class="navbar-expand-lg navbar-light bg-white  " style="background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" id="cabeza">
      
-    <div class="container-fluid"  >
+    <div class="container-fluid py-2"  >
         <a class="navbar-brand" href="#"><img src="./img/logo.jpeg" class="logo rounded-circle img-fluid d-block d-sm-block  d-md-block  d-lg-none d-xl-none " alt=""/></a>
         <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbar1">
             Menu <i class="navbar-toggler-icon"></i>

@@ -1,14 +1,14 @@
-<div id="carouselExampleControlsBrincolin" class="carousel slide" data-ride="carousel" data-interval="100000000000">
+<div id="carouselExampleControlsBrincolin" class="carousel slide carousel-fade"  data-ride="carousel" data-interval="100000000000">
     <div class="carousel-inner">
 
 
         <?php 
      include("util/conexion.php");
 
-     $registros = "SELECT COUNT(*) AS cuenta FROM brincolin" ; 
+     $registros = "SELECT COUNT(*) AS registros FROM brincolin" ; 
      $resultReg=$conn->query($registros) or die (mysqli_error($conn));
      $numero = mysqli_fetch_assoc($resultReg);
-     $numeroReg = (string) $numero['cuenta'];
+     $numeroReg = (string) $numero['registros'];
 
      
 	 $consulta = "SELECT MIN(id),ruta FROM brincolin";

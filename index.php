@@ -1,4 +1,3 @@
-
 <?php
     function contador()
     {
@@ -22,62 +21,73 @@
     $visitantes = contador();
     
 ?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="css/style2.css"/> 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <link rel="shortcut icon" href="img/favicon.ico" />
-   
-    <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-   
-    <title>So's Todo Para Tus Fiestas</title>
-    
-    
-</head>
-
+<?php include "components/head.php" ?>
 
 <body>
 
-<?php include ("components/botones.php"); ?>
+  <!-- Start your project here-->  
+
+
+
+<?php include "components/botones.php"; ?>
 
  
-    <?php include ("components/navbar.php"); ?>
+    <?php include "components/navbar.php"; ?>
 
-     <?php include ("components/header.php"); ?>
+     <?php include "components/header.php"; ?>
 
-    <?php include ("components/sobreNosotros.php"); ?>
+    <?php include "components/sobreNosotros.php"; ?>
 
-    <?php include ("components/services.php"); ?>
+     <?php include "carrusel/promociones.php"; ?>
+
+    <?php include "components/services.php"; ?>
 
    
-     <?php include ("components/contacto.php"); ?>
+     <?php include "components/contacto.php"; ?>
 
 
-    <?php include ("components/footer.php"); ?>
+    <?php include "components/footer.php"; ?>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.4.1.slim.min.js">
-    </script>
-    <script src="js/popper.min.js">
-    </script>
-    <script src="js/bootstrap.min.js">
-    </script>  
 
-     
-     
+
+
+
+
+
+
+
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+   <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+   <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
 </body>
-
 </html>

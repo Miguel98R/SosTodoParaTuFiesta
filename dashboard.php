@@ -9,21 +9,7 @@ if (!isset($user)) {
 }
   ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administración</title>
-    <link rel="stylesheet" href="css/style2.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <link rel="shortcut icon" href="img/favicon.ico" />
-
-    <script src="https://kit.fontawesome.com/b46c20e3c5.js" crossorigin="anonymous"></script>
-
-</head>
+<?php include "components/head.php" ?>
 
 <body>
 

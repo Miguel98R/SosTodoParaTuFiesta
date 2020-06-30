@@ -1,7 +1,7 @@
 
-<footer class="navbar-light  " style="background-image: url('./img/bg-nav.jpg');" >
-    <div class="container-fluid " style="background-color: #FEE140;
-background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);" >
+<footer class="navbar-light fixed-bottom "style="background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);"  >
+    <div class="container-fluid "  >
 
         
     </div>
